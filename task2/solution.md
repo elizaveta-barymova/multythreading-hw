@@ -7,27 +7,27 @@
 
 Сборка и запуск следующими командами:
 
-'''
+```bash
 mkdir build && cd build
 cmake ..
 make
-'''
+```
 
 Запуск тестов:
 
-'''
+```bash
 ./apply_function_tests
-'''
+```
 
 Запуск бенчмарков:
 
-'''
+```bash
 ./apply_function_benchmark
-'''
+```
 
 Выводы фактически полученные на системе, на которой разрабатывалось решение:
 
-'''
+```
 Running main() from /home/kwiaty/multythreading-hw/task2/build/_deps/googletest-src/googletest/src/gtest_main.cc
 [==========] Running 6 tests from 1 test suite.
 [----------] Global test environment set-up.
@@ -49,9 +49,9 @@ Running main() from /home/kwiaty/multythreading-hw/task2/build/_deps/googletest-
 [----------] Global test environment tear-down
 [==========] 6 tests from 1 test suite ran. (1 ms total)
 [  PASSED  ] 6 tests.
-'''
+```
 
-'''
+```
 Run on (3 X 2496 MHz CPU s)
 CPU Caches:
   L1 Data 48 KiB (x3)
@@ -76,4 +76,4 @@ BM_ThreadCount/3              451309 ns       135049 ns         5176
 BM_ThreadCount/4              532309 ns       117872 ns         5992
 BM_ThreadCount/5              614271 ns       195567 ns         3568
 BM_ThreadCount/6              669658 ns       272750 ns         2587
-'''
+```
