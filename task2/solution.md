@@ -51,6 +51,9 @@ Running main() from /home/kwiaty/multythreading-hw/task2/build/_deps/googletest-
 [  PASSED  ] 6 tests.
 ```
 
+<img width="765" height="392" alt="image" src="https://github.com/user-attachments/assets/cfbbe747-9dc5-4493-9697-c076c06c921d" />
+
+
 ```
 Run on (3 X 2496 MHz CPU s)
 CPU Caches:
@@ -77,3 +80,5 @@ BM_ThreadCount/4              532309 ns       117872 ns         5992
 BM_ThreadCount/5              614271 ns       195567 ns         3568
 BM_ThreadCount/6              669658 ns       272750 ns         2587
 ```
+<img width="704" height="444" alt="image" src="https://github.com/user-attachments/assets/5bda3f58-dd72-439e-9bc5-455c3a08f213" />
+
