@@ -25,7 +25,7 @@ make
 ./apply_function_benchmark
 ```
 
-Выводы фактически полученные на системе, на которой разрабатывалось решение:
+Выводы фактически полученные на системе, на которой разрабатывалось решение (скрины и текст - разные запуски):
 
 ```
 Running main() from /home/kwiaty/multythreading-hw/task2/build/_deps/googletest-src/googletest/src/gtest_main.cc
@@ -51,8 +51,7 @@ Running main() from /home/kwiaty/multythreading-hw/task2/build/_deps/googletest-
 [  PASSED  ] 6 tests.
 ```
 
-<img width="765" height="392" alt="image" src="https://github.com/user-attachments/assets/cfbbe747-9dc5-4493-9697-c076c06c921d" />
-
+<img width="862" height="414" alt="image" src="https://github.com/user-attachments/assets/2b388871-272e-499a-8a08-26170c82c93f" />
 
 ```
 Run on (3 X 2496 MHz CPU s)
@@ -80,5 +79,6 @@ BM_ThreadCount/4              532309 ns       117872 ns         5992
 BM_ThreadCount/5              614271 ns       195567 ns         3568
 BM_ThreadCount/6              669658 ns       272750 ns         2587
 ```
-<img width="704" height="444" alt="image" src="https://github.com/user-attachments/assets/5bda3f58-dd72-439e-9bc5-455c3a08f213" />
+<img width="704" height="474" alt="image" src="https://github.com/user-attachments/assets/cb25ba40-f3b9-436c-849f-643756eabdcf" />
+
 
