@@ -169,16 +169,15 @@ public:
 
        if (tail + total > head) return false;
 
-       std::string payload(hdr.length, '\0');
-       read_bytes((offset + sizeof(hdr)) % meta->capacity, payload.data(), hdr.length);
-
-       // Очищаем прочитанные данные (затираем заголовок, чтобы не считывать данные повторно)
+       // Очищаем прочитанные данные (затираем заголовок)
        MessageHeader zero_hdr{0, 0};
        write_bytes(offset, &zero_hdr, sizeof(zero_hdr));
 
        meta->tail.store(tail + total, std::memory_order_release);
 
        if (hdr.type == expected_type) {
+           std::string payload(hdr.length, '\0');
+           read_bytes((offset + sizeof(hdr)) % meta->capacity, payload.data(), hdr.length);
            out = payload;
            return true;
        }
